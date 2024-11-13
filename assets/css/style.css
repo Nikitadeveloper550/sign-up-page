@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+section {
+    font-family: "poppins";
+}
+
+.light-grey
+{
+    color: rgb(145,151,166);
+}
+
+.dark-grey
+{
+    color: rgba(98, 101, 109, 1);
+}
+
+.bg-img {
+    background-image: url(../images/Sign\ in\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43.2px;
+}
+
+.Don’thave {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+span {
+    color: rgb(0, 119, 255);
+}
+
+.bg-blue {
+    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+    max-width: 340px;
+}
+
+.input-container input {
+    padding-left: 40px;
+    min-height: 54px;
+    border-radius: 10px;
+    border: 2px solid rgba(153, 153, 153, 0.2) !important;
+    max-width: 340px !important;
+    width: 100% !important;
+    background-color: rgb(245,248,255);
+}
+
+
+img[alt="input-icon"]
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.email-password {
+    left: 3%;
+}
+
+.icon
+{
+    right: 5%;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-family: lato;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+.btn-signup {
+    max-width: 340px;
+    width: 100%;
+    border:none !important;
+    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+    border-radius: 2rem;
+    padding: 14px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+}
+
+::placeholder
+{
+    font-family: Lato;
+    color: rgb(145,151,166);
+} 
+
+.padding-left
+{
+    padding-left: 80px;
+}
+
+.grey-line
+{
+    height: 0px;
+    width: 100px;
+    border: 1px solid rgba(201, 207, 219, 1)
+}
+
+
+
+
+
+
