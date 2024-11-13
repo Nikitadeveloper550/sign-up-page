@@ -5,13 +5,11 @@ section {
     font-family: "poppins";
 }
 
-.light-grey
-{
-    color: rgb(145,151,166);
+.light-grey {
+    color: rgb(145, 151, 166);
 }
 
-.dark-grey
-{
+.dark-grey {
     color: rgba(98, 101, 109, 1);
 }
 
@@ -31,6 +29,10 @@ section {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
+}
+
+.text-decoration{
+    text-decoration: none !important;
 }
 
 span {
@@ -54,12 +56,11 @@ span {
     border: 2px solid rgba(153, 153, 153, 0.2) !important;
     max-width: 340px !important;
     width: 100% !important;
-    background-color: rgb(245,248,255);
+    background-color: rgb(245, 248, 255);
 }
 
 
-img[alt="input-icon"]
-{
+img[alt="input-icon"] {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -72,8 +73,7 @@ img[alt="input-icon"]
     left: 3%;
 }
 
-.icon
-{
+.icon {
     right: 5%;
 }
 
@@ -83,6 +83,11 @@ img[alt="input-icon"]
     font-family: lato;
 }
 
+.pointer
+{
+    cursor: pointer;
+}
+
 .checkbox-container input {
     margin-right: 10px;
 }
@@ -90,7 +95,7 @@ img[alt="input-icon"]
 .btn-signup {
     max-width: 340px;
     width: 100%;
-    border:none !important;
+    border: none !important;
     background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
     border-radius: 2rem;
     padding: 14px 0px;
@@ -100,26 +105,32 @@ img[alt="input-icon"]
     color: white;
 }
 
-::placeholder
-{
+::placeholder {
     font-family: Lato;
-    color: rgb(145,151,166);
-} 
+    color: rgb(145, 151, 166);
+}
 
-.padding-left
-{
+.padding-left {
     padding-left: 80px;
 }
 
-.grey-line
-{
+.grey-line {
     height: 0px;
     width: 100px;
     border: 1px solid rgba(201, 207, 219, 1)
 }
 
+.social-btn {
+    max-width: 166px;
+    width: 100%;
+    min-height: 41px;
+    border: 1px solid rgba(228, 234, 247, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px  !important;
+}
 
-
-
-
-
+.fb {
+    margin-left: 10px;
+}
