@@ -92,13 +92,19 @@ img[alt="input-icon"] {
     font-weight: 400;
     line-height: 20px;
     color: white;
-    transition: background-color 2s ease-out 100ms
+}
+
+.btn-signup:hover {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 ::placeholder {
     font-family: Lato;
     color: rgb(145, 151, 166);
 }
+
 
 .justify-end {
     justify-content: end;
@@ -114,6 +120,12 @@ img[alt="input-icon"] {
     justify-content: center;
     align-items: center;
     padding-top: 10px !important;
+}
+
+.social-btn:hover {
+    font-weight: 700;
+    border-radius: 2rem;
+    letter-spacing: 1px;
 }
 
 .fb {
@@ -202,7 +214,6 @@ img[alt="input-icon"] {
 
     .grey-line {
         height: 0px;
-        /* width: 100%;  */
         width: 300px;
         margin-left: auto;
         margin-right: auto;
@@ -221,25 +232,25 @@ img[alt="input-icon"] {
     }
 
     .facebook {
-        left: 253px;
+        left: 197px;
         top: 181px;
         z-index: 2;
     }
 
     .linkedin {
-        left: 253px;
+        left: 197px;
         top: 280px;
         z-index: 2;
     }
 
     .Instagram {
-        left: 253px;
+        left: 197px;
         top: 391px;
         z-index: 2;
     }
 
     .twitter {
-        left: 253px;
+        left: 197px;
         top: 490px;
         z-index: 2;
     }
@@ -256,7 +267,7 @@ img[alt="input-icon"] {
         z-index: 99 !important;
         position: absolute !important;
         top: 103px;
-        left: 222px;
+        left: 160px;
     }
 
     .input-container input {
@@ -266,21 +277,21 @@ img[alt="input-icon"] {
 
     .facebook {
         top: 365px;
-        left: 152px;
+        left: 102px;
     }
 
     .linkedin {
-        left: 244px;
+        left: 202px;
         top: 365px;
     }
 
     .Instagram {
-        left: 343px;
+        left: 303px;
         top: 365px;
     }
 
     .twitter {
-        left: 437px;
+        left: 407px;
         top: 365px;
     }
 }
@@ -325,5 +336,6 @@ img[alt="input-icon"] {
         z-index: 1;
         bottom: 0%;
         left: 0%;
+        max-width: 600px;
     }
 }
