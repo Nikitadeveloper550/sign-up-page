@@ -92,6 +92,7 @@ img[alt="input-icon"] {
     font-weight: 400;
     line-height: 20px;
     color: white;
+    transition: 0.5s;
 }
 
 .btn-signup:hover {
@@ -120,6 +121,7 @@ img[alt="input-icon"] {
     justify-content: center;
     align-items: center;
     padding-top: 10px !important;
+    transition: 0.7s;
 }
 
 .social-btn:hover {
@@ -183,11 +185,11 @@ img[alt="input-icon"] {
     }
 
     .facebook {
-        top: 3%
+        top: 8%
     }
 
     .linkedin {
-        top: 26%;
+        top: 29%;
     }
 
     .Instagram {
